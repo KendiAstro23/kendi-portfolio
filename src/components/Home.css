@@ -1,0 +1,96 @@
+
+
+/* Home section styles */
+.home-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('./assets/home-back.jpg');
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    color: rgb(146, 148, 36);
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px;
+  }
+  
+  .home-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  .hero-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .star {
+    position: absolute;
+  }
+  
+  .star-1 {
+    top: 5%;
+    left: 10%;
+  }
+  
+  .star-2 {
+    right: 10%;
+    top: -10%;
+  }
+  
+  .star-3 {
+    right: 7%;
+    top: 15%;
+  }
+  
+  .star-4 {
+    bottom: -20%;
+    right: 7%;
+  }
+  
+  .button-container {
+    position: absolute;
+    left: 50px;
+    display: flex;
+    width: auto;
+    align-items: center;
+    /*justify-content: flex-start; */
+    gap: 15px; /* Space between buttons */
+    bottom: -100px; /* Add space between text and buttons */
+    z-index: 999;
+    animation: float 3s ease-in-out infinite; /* Floating animation */
+    padding: 10px;
+  }
+
+  @keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+  
+  /* Buttons */
+  .cont-button, .work-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .work-button {
+    background-color: blue; /* Slightly different shade for login button */
+  }
+  
+  .home-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
