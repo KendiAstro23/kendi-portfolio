@@ -13,17 +13,17 @@ const MyWorks = () => {
     },
     {
       id: 2,
-      title: "Project Two",
-      description: "A brief description of Project Two.",
+      title: "PesaTrak",
+      description: "A user-customized financial tracker that allows users to keep track of their spending.",
       image: "work2.jpg",
-      link: "https://project-two-link.com",
+      link: "https://finance-tracker-7ftm.vercel.app/",
     },
     {
       id: 3,
-      title: "Project Three",
-      description: "A brief description of Project Three.",
+      title: "Adrasha Jewellery",
+      description: "An E-commerce jewellery Shop for various types of African Traditional Jewellery.",
       image: "work3.jpg",
-      link: "https://project-three-link.com",
+      link: "https://adrasha-clone.vercel.app/",
     },
     // Add more projects as needed
   ];
